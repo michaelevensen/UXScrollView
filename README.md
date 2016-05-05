@@ -3,7 +3,7 @@
 ![image](https://cloud.githubusercontent.com/assets/55974/15045240/dd51cc44-12d9-11e6-9cda-22858445e8ad.png)
 
 - First thing is to set 0, 0, 0, 0 sizing constraints for the Scroll View to the root view of the View Controller. 
-- Add a Content View inside the Scroll View (this is to allow for the Scroll View to scale flexibly relative to the parent root View for the View Controller) - *this is required for the Scroll View to work.* 
+- - Add a Content View inside the Scroll View (this is to allow for the Scroll View to scale flexibly relative to the parent root View for the View Controller) - *this is required for the Scroll View to work.* 
 - Make sure that the Content View is set to Equal Width and Equal Height to the main View-Controller root view (not the Scroll View). Constraints should be 0, 0, 0, 0.
 - For the Equal Height constraint set it to Low Priority (250) (this to allow for Height scaling according to content in Content View).
 - Add all content that you want to the Content View. 
