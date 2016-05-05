@@ -10,5 +10,7 @@
 
 --
 
-- One trick I just learned is to adjust the bottom Constraint for the last item in the Content View through setting (click on the bottom blue constraint handle) the Relation to be Greater Than or Equal instead of being Equal, and setting the Constant to be whatever bottom margin you want (in this case 20). This is to allow for the bottom Constraint to scale with flexible content height.
-- Another trick is setting the UILabel Lines property to being 0 (and not 1 as it is by default), this allows the UILabel to be dynamic in amount of lines, eg. not truncating it to just one or two lines. Great tip!
+
+One trick I just learned is to adjust the bottom Constraint for the last item in the Content View through setting (click on the bottom blue constraint handle) the Relation to be Greater Than or Equal instead of being Equal, and setting the Constant to be whatever bottom margin you want (in this case 20). This is to allow for the bottom Constraint to scale with flexible content height.
+
+Another trick is setting the UILabel Lines property to being 0 (and not 1 as it is by default), this allows the UILabel to be dynamic in amount of lines, eg. not truncating it to just one or two lines. Great tip!
