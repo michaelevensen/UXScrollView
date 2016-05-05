@@ -1,3 +1,5 @@
+# UXScrollView
+
 - First thing is to set 0, 0, 0, 0 sizing constraints for the Scroll View to the root view of the View Controller. 
 - Add a Content View inside the Scroll View (this is to allow for the Scroll View to scale flexibly relative to the parent root View for the View Controller) - this is required for the Scroll View to work. 
 - Make sure that the Content View is set to Equal Width and Equal Height to the main View-Controller root view (not the Scroll View). Constraints should be 0, 0, 0, 0.
